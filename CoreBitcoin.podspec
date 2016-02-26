@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "BlockoCoreBitcoin"
+  s.name         = "CoreBitcoin"
   s.version      = "0.6.8.1"
   s.summary      = "CoreBitcoin is an implementation of Bitcoin protocol in Objective-C."
   s.description  = <<-DESC

@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "CoreBitcoin"
+  s.name         = "BlockoCoreBitcoin"
   s.version      = "0.6.8.1"
   s.summary      = "CoreBitcoin is an implementation of Bitcoin protocol in Objective-C."
   s.description  = <<-DESC
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/oleganza/CoreBitcoin"
   s.license      = 'WTFPL'
   s.author       = { "Oleg Andreev" => "oleganza@gmail.com" }
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.9'
   s.source       = { :git => "https://github.com/oleganza/CoreBitcoin.git", :tag => s.version.to_s }
   s.source_files = 'CoreBitcoin'
